@@ -1,0 +1,104 @@
+.cookies-card {
+  width: 520px;
+  padding: 30px;
+  color: #1E2337;
+}
+
+.radius--10px {
+  border-radius: 10px;
+}
+
+.cookies-card.bg--default {
+  background-color: #EADFD8;
+}
+
+.cookies-card__icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #DED4CD;
+  font-size: 32px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cookies-card__content {
+  margin-bottom: 0;
+}
+
+.cookies-btn {
+  color: #363636;
+  text-decoration: none;
+  padding: 10px 25px;
+  border: 1px solid #848484;
+  margin: 3px 5px;
+  display: inline-block;
+}
+
+.cookies-btn:hover {
+  background-color: #DED4CD;
+  color: #363636;
+}
+
+.cookies-btn.left--btn {
+  border-radius: 45px 10px 10px 45px;
+}
+.cookies-btn.right--btn {
+  border-radius: 10px 45px 45px 10px;
+}
+
+.cookies-card.style--lg {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.cookies-card.style--lg .cookies-card__content {
+  width: calc(100% - (55px + 220px));
+  padding: 0 25px;
+}
+.cookies-card.style--lg .cookies-card__btn {
+  width: 220px;
+}
+
+
+.cookies-card.cookies--dark {
+  color: #EADFD8;
+  background-color: #2C3249;
+}
+
+.cookies-card.cookies--dark .cookies-btn {
+  color: #EADFD8;
+}
+
+.cookies-card.cookies--dark .cookies-btn:hover {
+  background-color: #343A50;
+  color: #EADFD8;
+}
+
+.cookies-card.cookies--dark .cookies-card__icon {
+  background-color: #1E2337;
+}
+
+@media (max-width: 1399px) {
+  .cookies-card.style--lg, .cookies-card  {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .cookies-card.style--lg {
+    display: block;
+  }
+  .cookies-card.style--lg .cookies-card__content {
+    width: 100%;
+    padding: 0;
+    margin-top: 25px;
+  }
+  .cookies-card.style--lg .cookies-card__btn {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
