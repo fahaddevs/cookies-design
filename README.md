@@ -70,7 +70,7 @@ Just download the repo and copy paste some lines of code.
 ![Markdown Thumbnail](images/4.jpg)
 
 
-Here is the [Demo link:](https://fahaddevs.github.io/youtube-video-list-player/)
+Here is the [Demo link:](https://fahaddevs.github.io/cookies-design/)
 
 
 ---
