@@ -48,19 +48,25 @@
   border-radius: 10px 45px 45px 10px;
 }
 
-.cookies-card.style--lg {
+.cookies-card.style--lg,
+.cookies-card.style--full {
   width: 1200px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
-
-.cookies-card.style--lg .cookies-card__content {
+.cookies-card.style--lg .cookies-card__content,
+.cookies-card.style--full .cookies-card__content {
   width: calc(100% - (55px + 220px));
   padding: 0 25px;
 }
-.cookies-card.style--lg .cookies-card__btn {
+.cookies-card.style--lg .cookies-card__btn,
+.cookies-card.style--full .cookies-card__btn {
   width: 220px;
+}
+
+.cookies-card.style--full {
+  width: 100%;
 }
 
 
@@ -89,15 +95,18 @@
 }
 
 @media (max-width: 767px) {
-  .cookies-card.style--lg {
+  .cookies-card.style--lg,
+  .cookies-card.style--full {
     display: block;
   }
-  .cookies-card.style--lg .cookies-card__content {
+  .cookies-card.style--lg .cookies-card__content,
+  .cookies-card.style--full .cookies-card__content {
     width: 100%;
     padding: 0;
     margin-top: 25px;
   }
-  .cookies-card.style--lg .cookies-card__btn {
+  .cookies-card.style--lg .cookies-card__btn,
+  .cookies-card.style--full .cookies-card__btn {
     width: 100%;
     margin-top: 20px;
   }

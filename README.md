@@ -70,6 +70,27 @@ Just download the repo and copy paste some lines of code.
 ![Markdown Thumbnail](images/4.jpg)
 
 
+### cookies full width design
+*just add (style--full) class*
+```html
+  <!-- cookies full width version start -->
+    <div class="cookies-card bg--default style--full radius--10px text-center">
+      <div class="cookies-card__icon">
+        <i class="fas fa-cookie-bite"></i>
+      </div>
+      <p class="mt-4 cookies-card__content">We may use cookies or any other tracking technologies when you visit our website, including any other media form, mobile website, or mobile application related or connected to help customize the Site and improve your experience. or <a href="#0">learn more</a></p>
+      <div class="cookies-card__btn mt-4">
+        <a href="#0" class="cookies-btn left--btn">Allow</a>
+        <a href="#0" class="cookies-btn right--btn">Decline</a>
+      </div>
+    </div>
+  <!-- cookies full width version end -->
+```
+
+### Result 
+![Markdown Thumbnail](images/5.jpg)
+
+
 Here is the [Demo link:](https://fahaddevs.github.io/cookies-design/)
 
 
